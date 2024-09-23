@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-09-23T11:20:09.234Z",
+    "end": "2024-09-23T11:20:09.509Z",
+    "duration": 275,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d3d870b6-1859-4e25-b986-815f02e3542b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\AddEmployee_Naturalperson.cy.js",
+      "file": "cypress\\e2e\\AddEmployee_Naturalperson.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ceff0b35-e695-4e3f-a54f-bbd0fb5a18b2",
+          "title": "Demo Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_01 - Pass Test",
+              "fullTitle": "Demo Test TC_01 - Pass Test",
+              "timedOut": null,
+              "duration": 17,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(true).to.equal(true);",
+              "err": {},
+              "uuid": "6a76fe3a-f5ba-4680-9538-7bbb453b07c7",
+              "parentUUID": "ceff0b35-e695-4e3f-a54f-bbd0fb5a18b2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_02 - Fail Test",
+              "fullTitle": "Demo Test TC_02 - Fail Test",
+              "timedOut": null,
+              "duration": 210,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "expect(true).to.equal(false);",
+              "err": {
+                "message": "AssertionError: expected true to equal false",
+                "estack": "AssertionError: expected true to equal false\n    at Context.eval (webpack://cypress-new-project/./cypress/e2e/AddEmployee_Naturalperson.cy.js:20:20)",
+                "diff": null
+              },
+              "uuid": "117de3e7-1000-4ce0-a74d-99049dbe78f9",
+              "parentUUID": "ceff0b35-e695-4e3f-a54f-bbd0fb5a18b2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6a76fe3a-f5ba-4680-9538-7bbb453b07c7"
+          ],
+          "failures": [
+            "117de3e7-1000-4ce0-a74d-99049dbe78f9"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 227,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "SBCP ZA Cypress test report",
+        "reportDir": "cypress\\reports\\ZA_report\\.jsons",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
